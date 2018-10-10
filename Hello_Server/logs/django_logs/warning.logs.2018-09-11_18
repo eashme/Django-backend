@@ -1,0 +1,2 @@
+WARNING 2018-09-11 18:00:36,869 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1047: 用户缺乏隶属信息
+WARNING 2018-09-11 18:00:51,252 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 688: 代理商企图修改截止时间,修改人id为:1

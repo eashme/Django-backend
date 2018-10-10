@@ -1,0 +1,136 @@
+WARNING 2018-08-30 10:09:24,676 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico
+WARNING 2018-08-30 10:09:51,790 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1039: 用户缺乏隶属信息
+WARNING 2018-08-30 10:24:34,400 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /user/app/phone/login
+WARNING 2018-08-30 10:25:06,982 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /user/app/phone/login
+WARNING 2018-08-30 10:40:26,560 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico
+WARNING 2018-08-30 10:40:41,761 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1039: 用户缺乏隶属信息
+WARNING 2018-08-30 10:40:56,946 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 555: 修改的日期时间不合法
+ERROR 2018-08-30 10:40:56,995 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 690: UserInfo matching query does not exist.
+WARNING 2018-08-30 10:41:04,213 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1448: JAKE没有隶属关系记录
+ERROR 2018-08-30 10:41:04,214 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/login
+Traceback (most recent call last):
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 58, in get_current_task_obj
+    if hasattr(instance_obj, 'action_%s' % self.task[self.task_id]):
+KeyError: '1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1454, in post
+    if not gen_task.start():
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 75, in start
+    instances_objs = self.get_current_task_obj()
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 63, in get_current_task_obj
+    raise Exception("没有这个任务")
+Exception: 没有这个任务
+WARNING 2018-08-30 10:44:23,040 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1448: JAKE没有隶属关系记录
+WARNING 2018-08-30 10:46:36,625 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 10:47:39,398 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 10:49:19,395 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:02:14,277 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:40:11,853 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:40:59,749 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:41:32,520 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:44:23,973 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:44:32,927 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:45:15,617 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+ERROR 2018-08-30 11:45:15,621 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/login
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1459, in post
+    if not gen_task.start():
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 95, in start
+    self.bind_attr(obj)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 77, in bind_attr
+    print(callable(getattr(attr,'action')),'callable')
+AttributeError: 'str' object has no attribute 'action'
+WARNING 2018-08-30 11:45:38,908 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:46:47,022 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:47:03,566 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:47:14,285 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:47:55,770 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:48:12,957 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:49:33,810 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:52:30,734 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+ERROR 2018-08-30 11:52:30,736 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/login
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1459, in post
+    if not gen_task.start():
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 88, in start
+    instances_objs = self.get_current_task_obj()
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 62, in get_current_task_obj
+    instance_obj.__delattr__('action_%s' % self.task[self.task_id])
+AttributeError: action_message
+WARNING 2018-08-30 11:55:09,285 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 11:59:38,850 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 12:01:55,001 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+ERROR 2018-08-30 12:01:55,005 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/login
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1459, in post
+    if not gen_task.start():
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 99, in start
+    self.bind_attr(obj)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 82, in bind_attr
+    source_code = inspect.getsource(attr_obj)
+  File "/usr/lib/python3.5/inspect.py", line 944, in getsource
+    lines, lnum = getsourcelines(object)
+  File "/usr/lib/python3.5/inspect.py", line 931, in getsourcelines
+    lines, lnum = findsource(object)
+  File "/usr/lib/python3.5/inspect.py", line 744, in findsource
+    file = getsourcefile(object)
+  File "/usr/lib/python3.5/inspect.py", line 660, in getsourcefile
+    filename = getfile(object)
+  File "/usr/lib/python3.5/inspect.py", line 625, in getfile
+    'function, traceback, frame, or code object'.format(object))
+TypeError: <method-wrapper '__delattr__' of A object at 0x7f89a022aa20> is not a module, class, method, function, traceback, frame, or code object
+WARNING 2018-08-30 12:04:15,902 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 12:06:55,084 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+ERROR 2018-08-30 12:07:02,688 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/login
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1459, in post
+    if not gen_task.start():
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 99, in start
+    self.bind_attr(obj)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 82, in bind_attr
+    source_code = inspect.getsource(attr_obj)
+  File "/usr/lib/python3.5/inspect.py", line 944, in getsource
+    lines, lnum = getsourcelines(object)
+  File "/usr/lib/python3.5/inspect.py", line 931, in getsourcelines
+    lines, lnum = findsource(object)
+  File "/usr/lib/python3.5/inspect.py", line 744, in findsource
+    file = getsourcefile(object)
+  File "/usr/lib/python3.5/inspect.py", line 660, in getsourcefile
+    filename = getfile(object)
+  File "/usr/lib/python3.5/inspect.py", line 625, in getfile
+    'function, traceback, frame, or code object'.format(object))
+TypeError: <method-wrapper '__delattr__' of A object at 0x7fa40805a978> is not a module, class, method, function, traceback, frame, or code object
+WARNING 2018-08-30 12:09:16,045 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录

@@ -1,0 +1,11 @@
+WARNING 2018-09-07 10:26:36,408 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /
+WARNING 2018-09-07 10:26:36,539 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico
+ERROR 2018-09-07 10:53:33,109 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1247: Error 110 connecting to 192.168.28.134:6379. Connection timed out.
+WARNING 2018-09-07 10:53:57,632 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /
+WARNING 2018-09-07 10:53:57,702 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico
+WARNING 2018-09-07 11:05:49,056 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /
+WARNING 2018-09-07 11:15:56,815 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1039: 用户缺乏隶属信息
+WARNING 2018-09-07 11:23:09,699 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico
+WARNING 2018-09-07 11:33:48,306 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /
+WARNING 2018-09-07 11:33:48,508 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico
+WARNING 2018-09-07 11:34:45,866 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录

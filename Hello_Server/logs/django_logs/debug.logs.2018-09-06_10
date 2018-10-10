@@ -1,0 +1,132 @@
+DEBUG 2018-09-06 09:28:52,988 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:28:53,057 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:28:53,058 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:28:53,063 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:30:26,061 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:30:26,097 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:30:26,099 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:30:26,104 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:30:53,236 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:30:53,289 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:30:53,292 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:30:53,299 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:31:44,152 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:31:44,210 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.021) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:31:44,212 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:31:44,216 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:33:34,544 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:33:34,588 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:33:34,590 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:33:34,595 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:34:52,568 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:34:52,604 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:34:52,605 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:34:52,611 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:35:37,794 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.005) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:35:37,846 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:35:37,864 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.018) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:35:37,877 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.008) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:35:44,392 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:35:44,471 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:35:44,475 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.004) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:35:44,482 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:36:15,358 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:36:15,397 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:36:15,399 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:36:15,403 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:36:46,070 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:36:46,099 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:36:46,101 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:36:46,107 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:37:16,805 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:37:16,853 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.004) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:37:16,855 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:37:16,860 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:37:31,154 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:37:31,232 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:37:31,233 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:37:31,238 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:37:59,305 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:37:59,363 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:37:59,366 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:37:59,375 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:38:07,023 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:38:07,072 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:38:07,075 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:38:07,084 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:41:31,277 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:41:31,305 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:41:31,307 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:41:31,312 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:49:03,671 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:49:03,729 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:49:03,752 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.022) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:49:03,779 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.022) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:53:23,072 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:53:23,162 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:53:23,165 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:53:23,196 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.019) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:54:20,744 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:54:20,822 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.004) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:54:20,846 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.024) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:54:20,854 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:55:49,202 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:55:49,255 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:55:49,258 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:55:49,266 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 09:56:39,299 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.013) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:56:39,366 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 09:56:39,377 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.010) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 09:56:39,390 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.006) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:00:26,980 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:00:27,101 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:00:27,107 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.006) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:00:27,120 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.007) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:01:08,801 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:01:08,873 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:01:08,876 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:01:08,884 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:02:21,937 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:02:22,195 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:02:22,198 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:02:22,231 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.011) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:02:36,577 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.004) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:02:36,629 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:02:36,632 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:02:36,640 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:08:15,565 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:08:15,727 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.010) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:08:15,732 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.004) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:08:15,761 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.012) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:12:00,569 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:12:00,697 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:12:00,701 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:12:00,739 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.026) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:12:06,599 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:12:06,686 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:12:06,688 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:12:06,700 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.004) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:12:39,160 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.009) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:12:39,227 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:12:39,230 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:12:39,242 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:13:08,254 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.010) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:13:08,351 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:13:08,355 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:13:08,370 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:13:27,760 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:13:27,850 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:13:27,852 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:13:27,860 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:14:48,834 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:14:48,917 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.007) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:14:48,922 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.005) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:14:48,933 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:15:05,950 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:15:06,014 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:15:06,032 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.009) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:15:06,039 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-06 10:15:23,981 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:15:24,091 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-06 10:15:24,094 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-06 10:15:24,105 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.004) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()

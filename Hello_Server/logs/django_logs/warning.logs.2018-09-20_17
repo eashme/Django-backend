@@ -1,0 +1,4 @@
+WARNING 2018-09-20 17:58:04,665 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /
+WARNING 2018-09-20 17:58:05,042 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico
+WARNING 2018-09-20 17:58:49,784 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1047: 用户缺乏隶属信息
+WARNING 2018-09-20 17:59:47,196 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 688: 代理商企图修改截止时间,修改人id为:1

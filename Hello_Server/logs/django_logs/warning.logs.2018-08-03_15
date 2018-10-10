@@ -1,0 +1,10 @@
+WARNING 2018-08-03 14:54:45,603 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1035: 用户缺乏隶属信息
+WARNING 2018-08-03 14:54:45,615 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1049: (1146, "Table 'hellocial.user_logs' doesn't exist")
+WARNING 2018-08-03 14:56:47,668 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1035: 用户缺乏隶属信息
+WARNING 2018-08-03 14:56:47,670 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1049: (1146, "Table 'hellocial.user_logs' doesn't exist")
+WARNING 2018-08-03 15:02:46,329 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1035: 用户缺乏隶属信息
+WARNING 2018-08-03 15:02:46,332 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1049: (1146, "Table 'hellocial.user_logs' doesn't exist")
+WARNING 2018-08-03 15:32:21,213 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1035: 用户缺乏隶属信息
+WARNING 2018-08-03 15:32:21,215 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1049: (1146, "Table 'hellocial.user_logs' doesn't exist")
+WARNING 2018-08-03 15:39:11,522 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /
+WARNING 2018-08-03 15:39:11,700 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico

@@ -1,0 +1,22 @@
+DEBUG 2018-09-04 13:32:09,003 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 13:32:09,049 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 13:32:09,051 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-04 13:32:09,058 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-04 13:32:11,051 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 13:32:11,082 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 13:32:11,084 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-04 13:32:11,090 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-04 13:32:17,712 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 13:32:17,741 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 13:32:17,742 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-04 13:32:17,747 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-04 13:32:59,427 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 13:32:59,486 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 13:32:59,493 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.005) SHOW FULL TABLES; args=None
+DEBUG 2018-09-04 13:32:59,504 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-04 13:33:29,242 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 13:33:29,273 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 13:33:29,275 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-04 13:33:29,280 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+WARNING 2018-09-04 13:33:48,486 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /
+WARNING 2018-09-04 13:33:48,545 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico

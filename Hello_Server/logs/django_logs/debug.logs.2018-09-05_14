@@ -1,0 +1,12 @@
+DEBUG 2018-09-05 13:43:08,603 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.012) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 13:43:09,239 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 13:43:09,400 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.161) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 13:43:09,448 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.006) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 13:45:26,420 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.005) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 13:45:26,776 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.005) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 13:45:26,786 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.010) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 13:45:26,826 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.011) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 14:16:33,424 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 14:16:33,511 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 14:16:33,572 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.061) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 14:16:33,601 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.020) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()

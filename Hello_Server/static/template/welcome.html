@@ -1,0 +1,188 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5shiv.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<![endif]-->
+    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css"/>
+    <!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+    <title>我的桌面</title>
+</head>
+<body>
+<div class="page-container">
+    <p class="f-20 text-success">欢迎使用暗流系统&copy;WHALE_SYSTEM <span class="f-14">v0.2</span></p>
+
+    <p>上次登录时间：<span class="login_time">2014-6-14 11:19:55</span></p>
+    <table class="table table-border table-bordered table-bg">
+        <thead>
+        <tr>
+            <th colspan="7" scope="col">个人信息</th>
+        </tr>
+        <tr class="text-c">
+            <th>用户名</th>
+            <th>身份</th>
+            <th>可创建用户数</th>
+            <th>可用软件</th>
+            <th>邮箱</th>
+            <th>电话号</th>
+            <th>账户剩余有效时长(天)</th>
+        </tr>
+        </thead>
+        <tbody class="info_table_body">
+        <!--<tr class="text-c">
+            <td>本月</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>   -->
+        </tbody>
+    </table>
+    <table class="table table-border table-bordered table-bg mt-20">
+        <thead>
+        <tr>
+            <th colspan="10" scope="col">隶属帐号信息</th>
+        </tr>
+        </thead>
+        <tbody class="user_relations">
+        <tr>
+            <th width="30%">jake</th>
+            <td><span id="lbServerName">管理员</span></td>
+        </tr>
+
+        </tbody>
+    </table>
+    <div id="pageNav" class="pageNav"></div>
+</div>
+<footer class="footer mt-20">
+    <div class="container">
+        <p><span>Welcome to contact us. (:</span><br>
+            <span>WHALESYSTEM@OUTLOOK.COM</span>
+            <br>SKYPE:WHALESYSTEM
+            <span>QQ:624310145</span></p>
+        <p>暗流系统&copy; WHALE_SYSTEM</p>
+    </div>
+</footer>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+    var Role = {
+            1: '管理员',
+            2: '后台操作员',
+            3: '代理商',
+            4: '广告主',
+            5: '广告操作员',
+            6: '临时帐号'
+        };
+
+    function genRelationsInof() {
+        //生成关系数据函数
+        $.getJSON('/users/relations',{page:1}, function (request) {
+            // 请求成功
+            if (request.code == "0") {
+                laypage({
+                    cont:'pageNav',
+                    pages:request.pages,
+                    curr:1,
+                    jump:function (e) {
+                        $.getJSON('/users/relations',{page:e.curr},function (request) {
+                            if(request.code==0){
+                                var rel_con = '<tr>' +
+                                            '<th width="9%">账户</th>' +
+                                            '<th width="9%">昵称</th>' +
+                                            '<th width="5%">ID</th>' +
+                                            '<th width="9%">身份</th>' +
+                                            '<th width="15%">结束使用时间</th>' +
+                                            '<th width="15%">可用软件</th>' +
+                                            '<th width="5%">剩余天数</th>' +
+                                            '<th width="9%">是否可用</th>'+
+                                            '<th width="9%">创建时间</th>' +
+                                            '<th width="9%">更新时间</th>' +
+                                            '</tr>';
+                            array_data = request.data;
+                            for (var i = 0; i < array_data.length; i++) {
+                                var fornums_data = array_data[i]['fornums'],
+                                    fornums_str = '';
+                                for(var j=0;j<fornums_data.length;j++){
+                                    fornums_str += fornums_data[j]['fornum_name'];
+                                    if(j!=(fornums_data.length - 1)){
+                                        fornums_str+=',';
+                                    }
+                                }
+
+                                rel_con += '<tr>\
+                                                <td><span id="lbServerName">' + array_data[i]['slave_username'] + '</span></td>\
+                                                <td><span id="lbServerName">' + array_data[i]['slave_name'] + '</span></td>\
+                                                <td><span id="lbServerName">' + array_data[i]['slave_id'] + '</span></td>\
+                                                <td><span id="lbServerName">' + Role[array_data[i]['role']] + '</span></td>\
+                                                <td><span id="lbServerName">' + array_data[i]['end_time'] + '</span></td>\
+                                                <td><span id="lbServerName">' + fornums_str + '</span></td>\
+                                                <td><span id="lbServerName">' + array_data[i]['remain_days'] + '</span></td>\
+                                                <td><span id="lbServerName">' + array_data[i]['can_use'] + '</span></td>\
+                                                <td><span id="lbServerName">' + array_data[i]['create_time'] + '</span></td>\
+                                                <td><span id="lbServerName">' + array_data[i]['update_time'] + '</span></td>\
+                                              </tr>';
+                            }
+                            $('.user_relations').html(rel_con);
+                            }
+                        })
+                    }
+                })
+            }
+            });
+        }
+    $(function () {
+        // 文档准备完毕,请求加载个人信息数据
+        $.ajax({
+            url: '/users',
+            type: 'get',
+            success: function (request) {
+                // 请求成功
+                if (request.code == "0") {
+                    // 登陆成功
+                    // 判断是否勾选了记住用户名
+                    var fornums_data = request.data.fornums,
+                            fornums_str = '';
+                        for(var j=0;j<fornums_data.length;j++){
+                            fornums_str += fornums_data[j]['fornum_name'];
+                            if(j!=(fornums_data.length - 1)){
+                                fornums_str+=',';
+                            }
+                        }
+
+                    var con_info = '<tr class="text-c">\
+                                            <td>' + request.data.username + '</td>\
+                                            <td>' + Role[request.data.role] + '</td>\
+                                            <td>' + request.data.accounts + '</td>\
+                                            <td>' + fornums_str + '</td>\
+                                            <td>' + request.data.email + '</td>\
+                                            <td>' + request.data.phone + '</td>\
+                                            <td>' + request.data.valid_days + '</td>\
+                                        </tr>';
+                    $('.info_table_body').html(con_info);
+                    $('.login_time').html(request.data.last_join);
+                }
+            }
+        });
+        genRelationsInof();
+    });
+
+</script>
+</body>
+</html>

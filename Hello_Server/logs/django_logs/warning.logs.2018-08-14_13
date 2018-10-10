@@ -1,0 +1,2 @@
+WARNING 2018-08-14 13:33:54,744 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1036: 用户缺乏隶属信息
+WARNING 2018-08-14 13:33:54,746 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1050: (1146, "Table 'hellocial.user_logs' doesn't exist")

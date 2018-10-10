@@ -1,0 +1,342 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5shiv.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<![endif]-->
+    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css"/>
+    <!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+    <title>添加用户 - 管理员管理 - WHALESYSTEM v0.2</title>
+    <meta name="keywords" content="H-ui.admin v3.1,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+    <meta name="description" content="H-ui.admin v3.1，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+</head>
+<body>
+<article class="page-container">
+    <form class="form form-horizontal" id="form-admin-add" method="post">
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">用户名：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off" value="" placeholder="" id="adminName"
+                       name="adminName">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">昵称：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off" value="" placeholder="" id="name"
+                       name="name">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">初始密码：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="password" class="input-text" autocomplete="off" value="" placeholder="密码" id="password"
+                       name="password">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">确认密码：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="password" class="input-text" autocomplete="off" placeholder="确认新密码" id="password2"
+                       name="password2">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">性别：</label>
+            <div class="formControls col-xs-8 col-sm-9 skin-minimal">
+                <div class="radio-box">
+                    <input name="sex" type="radio" id="sex-1" value="0" checked>
+                    <label for="sex-1">男</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="sex-2" name="sex" value="1">
+                    <label for="sex-2">女</label>
+                </div>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">手机：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off" value="" placeholder="" id="phone"
+                       name="phone">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">邮箱：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" autocomplete="off" placeholder="@" name="email" id="email">
+            </div>
+        </div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">可用软件：</label>
+            <div class="formControls col-xs-8 col-sm-9" id="fornum_box">
+                <!--<input type="checkbox" name="fornum_id" value="1" />知乎 &nbsp;&nbsp;-->
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">角色：</label>
+            <div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
+			<select class="select" name="adminRole" size="1">
+				<option value="1">管理员</option>
+				<option value="2">后台操作员</option>
+				<option value="3">代理商</option>
+				<option value="4">广告主</option>
+                <option value="5">广告操作员</option>
+				<option value="6">临时帐号</option>
+			</select>
+			</span></div>
+        </div>
+        <div class="row cl" id="accounts_box">
+            <label class="form-label col-xs-4 col-sm-3">可开户数量/机器数量：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" autocomplete="off" class="input-text" value="" placeholder="" id="accounts"
+                       name="accounts">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">结束使用时间：</label>
+            <div class="formControls col-xs-8 col-sm-9" id="end_time_box">
+                <input autocomplete="off" type="text"
+                       onfocus="WdatePicker({dateFmt: 'yyyy-MM-dd HH:mm:ss' , minDate:'%y-%M-%d'})" id="end_time"
+                       class="input-text Wdate" style="width:220px;" name="end_time">
+            </div>
+        </div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">备注：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <textarea name="" cols="" rows="" autocomplete="off" class="textarea" placeholder="说点什么..."
+                          dragonfly="true" id="remarks"></textarea>
+
+            </div>
+        </div>
+        <div class="row cl">
+            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+                <input class="btn btn-primary radius" id="sub_btn" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+            </div>
+        </div>
+    </form>
+</article>
+
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="lib/jquery/1.9.1/jQuery.md5.js"></script>
+<script type="text/javascript" src="lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript">
+    // 获取当前时间的函数
+    function today() {
+        var today = new Date();
+        var y = today.getFullYear();
+        var m = today.getMonth() + 1;
+        var d = today.getDate();
+        var h = today.getHours() + 3;
+        var M = today.getMinutes();
+        var s = today.getSeconds();
+        m = m < 10 ? "0" + m : m;   //  这里判断月份是否<10,如果是在月份前面加'0'
+        d = d < 10 ? "0" + d : d;        //  这里判断日期是否<10,如果是在日期前面加'0'
+        h = h < 10 ? "0" + h : h;
+        M = M < 10 ? "0" + M : M;
+        s = s < 10 ? "0" + s : s;
+        return y + "-" + m + "-" + d + ' ' + h + ':' + M + ':' + s;
+    }
+
+    function set_fornum_info(data) {
+        var con = '';
+        for (var i = 0; i < data.length; i++) {
+            var fornum_name = data[i]['fornum_name'];
+            if (data[i]['app_type'] == 1){
+                fornum_name += "(手机端)";
+            }
+            con += '<input type="checkbox" name="fornum_id" value="{id}" />{fornum_name} &nbsp;&nbsp;'.format({
+                'id': data[i]['fornum_id'],
+                'fornum_name': fornum_name
+            });
+        }
+        $('#fornum_box').html(con)
+    }
+    $(function () {
+        // 默认设置三小时之后
+        $('#end_time').val(today());
+
+        $.getJSON('/isLogin', {}, function (request) {
+            if (request.code == 0) {
+                if (request.user_role > 4) {
+                    layer.msg('临时账号和广告操作员不允许登陆', {icon: 2, time: 1000}, function () {
+                        $.get('/users/loginout', function (request) {
+                            location.href = 'login.html'
+                        });
+                        location.href = 'login.html';
+                    })
+                } else if (request.user_role > 2) {
+                    // 广告主和代理商在操作只显示自身可用的论坛
+                    $.getJSON('/users/user_fornum', {}, function (request) {
+                        if (request.code == 0) {
+                            set_fornum_info(request.data)
+                        }
+                    });
+
+
+                    // 判断是不是广告主和代理商并隐藏相应的输入框
+                    if (request.user_role == 3) {
+                        // 代理商
+                        // 选项卡设置为只有临时账户选项
+                        $('.select').html(' <option value="6">临时帐号</option>');
+                        $('#end_time_box').html('<span>有效期为3小时内</span>');
+                        $('#accounts_box').hide();
+
+                    } else if (request.user_role == 4) {
+                        // 广告主
+                        $('#accounts_box').hide();
+                        $('.select').html('<option value="5">广告操作员</option>');
+                        $.getJSON('/users', {}, function (request) {
+                            if (request.code == 0) {
+                                var con = '<input type="text" onfocus="WdatePicker({dateFmt: \'yyyy-MM-dd HH:mm:ss\' , minDate:\'%y-%M-%d\',maxDate:\'' + request.data["end_time"] + '\'})" id="end_time" autocomplete="off" class="input-text Wdate" style="width:220px;" name="end_time">';
+                                //　广告主添加账户的默认时间为自身的有效期
+                                $('#end_time').val(request.data["end_time"]);
+                                $('#end_time_box').html(con);
+                            } else {
+                                layer.msg(request.message, {icon: 2, time: 1000})
+                            }
+                        });
+                    }
+                } else {
+                    //管理员在操作显示全部论坛
+                    $.getJSON('/script/fornum', {'is_all': true}, function (request) {
+                        if (request.code == 0) {
+                            set_fornum_info(request.data)
+                        }
+                    });
+
+                }
+            } else {
+                layer.msg('请先去登陆', {icon: 2, time: 1000}, function () {
+                    var index = parent.layer.getFrameIndex(window.name);
+                        parent.$('.btn-refresh').click();
+                        parent.location.reload();
+                        parent.layer.close(index);
+                });
+            }
+        });
+
+
+        $('.skin-minimal input').iCheck({
+            checkboxClass: 'icheckbox-blue',
+            radioClass: 'iradio-blue',
+            increaseArea: '20%'
+        });
+
+        var form_obj = $("#form-admin-add");
+
+        var can_op = true;
+
+        form_obj.validate({
+            rules: {
+                adminName: {
+                    required: true,
+                    minlength: 4,
+                    maxlength: 16
+                },
+                password: {
+                    required: true,
+                    minlength: 6
+                },
+                password2: {
+                    required: true,
+                    equalTo: "#password",
+                    minlength: 6
+                },
+                sex: {
+                    required: true
+                },
+                phone: {
+                    number: true
+
+                },
+                adminRole: {
+                    required: true
+                },
+                accounts: {
+                    required: true,
+                    number: true,
+                    maxlength: 4
+                },
+                end_time: {
+                    required: true
+                }
+            },
+            onkeyup: false,
+            focusCleanup: true,
+            success: "valid",
+            submitHandler: function (form) {
+                if (can_op) {
+                    can_op = false;
+                    var params = getFormJson(form);
+                    params['password2'] = '';
+                    params['remarks'] = $('#remarks').val();
+
+                    var fornums_ids = [];
+                    $('input:checkbox:checked').each(function () {
+                        var id = this.value;
+                        if (id != '') {
+                            fornums_ids.push(id);
+                        }
+                    });
+
+                    params['fornum_id'] = fornums_ids;
+
+                    $.ajax({
+                        url: '/users/register',
+                        type: 'POST',
+                        data: JSON.stringify(params),
+                        dataType: "json",
+                        contentType: 'application/json',
+                        success: function (request) {
+                            if (request.code == '0') {
+                                layer.msg('添加成功!', {icon: 1, time: 1000}, function () {
+                                    var index = parent.layer.getFrameIndex(window.name);
+                                    parent.$('.btn-refresh').click();
+                                    parent.layer.close(index);
+                                    can_op = true;
+                                });
+                            } else {
+                                layer.msg(request.message, {icon: 1, time: 1000},function () {
+                                    can_op = true;
+                                });
+                            }
+
+                        }
+                    });
+
+                    return false
+                }
+                }
+            });
+    })
+    ;
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

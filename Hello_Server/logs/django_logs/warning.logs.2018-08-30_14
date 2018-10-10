@@ -1,0 +1,46 @@
+WARNING 2018-08-30 13:45:54,547 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 13:47:25,342 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 13:48:01,887 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 13:50:45,347 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 13:53:34,329 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 13:55:20,037 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 13:58:06,738 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 13:59:46,719 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 14:00:34,840 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 14:23:37,346 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+ERROR 2018-08-30 14:23:37,349 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/login
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1459, in post
+    if not gen_task.start():
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 95, in start
+    self.bind_attr(obj)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 82, in bind_attr
+    setattr(obj,attr,attr_obj)
+AttributeError: attribute '__weakref__' of 'BaseActivity' objects is not writable
+WARNING 2018-08-30 14:23:40,426 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+ERROR 2018-08-30 14:23:40,427 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/login
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1459, in post
+    if not gen_task.start():
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 95, in start
+    self.bind_attr(obj)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 82, in bind_attr
+    setattr(obj,attr,attr_obj)
+AttributeError: attribute '__weakref__' of 'BaseActivity' objects is not writable
+WARNING 2018-08-30 14:25:08,894 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 14:27:54,064 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 14:31:24,045 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 14:33:40,726 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录
+WARNING 2018-08-30 14:57:39,397 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1453: JAKE没有隶属关系记录

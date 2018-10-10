@@ -1,0 +1,196 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5shiv.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>Js脚本管理</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 账户管理 <span class="c-gray en">&gt;</span> Js脚本管理 <a class="btn btn-success radius btn-refresh r" style="line-height:1.6em;margin-top:3px" href="javascript:;" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+    <div class="cl pd-5 bg-1 bk-gray"> <span class="l"> <a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a class="btn btn-primary radius" href="javascript:;" onclick="admin_role_add('添加Js代码','admin-js-add.html','800')"><i class="Hui-iconfont">&#xe600;</i> 添加Js代码</a> </span> <span class="r">共有数据：<strong id="data_length"></strong> 条</span> </div>
+
+    <table class="table table-border table-bordered table-hover table-bg">
+		<thead>
+
+        <tr>
+            <th scope="col" colspan="6">Js脚本管理</th>
+        </tr>
+        <tr>
+            <th scope="col" colspan="3">选择论坛:</th>
+            <th scope="col" colspan="3"><select class="select fornums_sel" name="fornums" size="1" style="color: #00a0e9"></select> </th>
+        </tr>
+			<tr class="text-c">
+				<th width="25"><input type="checkbox" value="" name=""></th>
+				<th width="40">ID</th>
+				<th width="80">标题</th>
+				<th width="80">所属论坛</th>
+                <th>描述</th>
+				<th width="70">操作</th>
+			</tr>
+		</thead>
+		<tbody id="js_code_manager">
+			<!--<tr class="text-c">
+				<td><input type="checkbox" value="" name=""></td>
+				<td>1</td>
+				<td>超级管理员</td>
+				<td><a href="#">admin</a></td>
+				<td>拥有至高无上的权利</td>
+				<td class="f-14"><a title="编辑" href="javascript:;" onclick="admin_role_edit('JS代码编辑','./editor/editor.html','1','1000','600')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="admin_role_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+			</tr>-->
+		</tbody>
+	</table>
+    <div id="pageNav" class="pageNav"></div>
+</div>
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.min.js"></script> 
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+/*根据选项卡选择论坛对应的js代码*/
+function load_js_data(p,f) {
+    // p: page　页数
+    // f: fornum　对应的论坛
+   $.getJSON('/script/js',{'page':p,'fornum_id':f}, function (request) {
+    // 请求成功
+    if (request.code == "0") {
+        $('#data_length').html(request.data_length);
+        laypage({
+            cont:'pageNav',
+            pages:request.pages,
+            curr:1,
+            jump:function (e) {
+                $.getJSON('/script/js',{page:e.curr,'fornum_id':f},function (request) {
+                    if(request.code==0){
+                    var array_data = request.data;
+                    var rel_con = '';
+                    for (var i = 0; i < array_data.length; i++) {
+                        rel_con+='<tr class="text-c">\
+                                    <td><input type="checkbox" value="{id}" name=""></td>\
+                                    <td>{id}</td>\
+                                    <td>{title}</td>\
+                                    <td><a href="#">{fornum}</a></td>\
+                                    <td>{description}</td>\
+                                    <td class="f-14"><a title="编辑" href="javascript:;" onclick="admin_role_edit(\'JS代码编辑\',\'admin-js-edit.html\',\'{id}\',\'1000\',\'600\')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="admin_role_del(this,\'{id}\')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>\
+                                </tr>'.format({'id':array_data[i]['id'],'title':array_data[i]['title'],'description':array_data[i]['description'],'fornum':array_data[i]['fornum']})
+                    }
+                    $('#js_code_manager').html(rel_con);
+                }
+            })
+        }
+    })
+}
+});
+}
+$(function () {
+    $.getJSON('/isLogin', {}, function (request) {
+         if (request.code != 0) {
+            ReloadPage();
+         }
+    });
+    // 加载完毕,先请求到所有的论坛信息
+    $.getJSON('/script/fornum',{'all':true},function (request) {
+	    //　请求论坛,填充论坛选项卡
+        if(request.code==0){
+            var data = request.data;
+            var con = '';
+            for (var i=0; i<data.length;i++){
+                con+='<option value="{fornum_id}">{fronum_name}</option>'.format({'fornum_id':data[i]['id'],'fronum_name':data[i]['fornum_name']});
+            }
+            $('.fornums_sel').html(con);
+            load_js_data(1,data[0]['id']);
+
+        }else{
+            layer.msg(request.message,{icon:1,time:1000})
+        }
+    });
+
+    // 绑定论坛选择改变事件,每次改变重新发送请求刷新数据
+    $('.fornums_sel').change(function () {
+        var fornum_id=$(this).children('option:selected').val();
+        load_js_data(1,fornum_id);
+    });
+
+    $('.btn-refresh').click(function () {
+        var fornum_id = $('.fornums_sel').find("option:selected").val();
+        load_js_data(1,fornum_id);
+    });
+
+});
+String.prototype.format = function (param) {
+        var reg = /{([^{}]+)}/gm;
+        return this.replace(reg, function (match, name) {
+            return param[name];
+        });
+};
+/*管理员-js代码-添加*/
+function admin_role_add(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*管理员-js代码-编辑*/
+function admin_role_edit(title,url,id,w,h){
+    var url_ = url+'?id='+id;
+	layer_show(title,url_,w,h);
+}
+/*管理员-js代码-删除*/
+function admin_role_del(obj,id){
+	layer.confirm('角色删除须谨慎，确认要删除吗？',function(index){
+		$.getJSON('/script/js/change',{'id':id},function (request) {
+		    if(request.code==0){
+		        layer.msg(request.message,{icon:1,time:1000},function () {
+                    $('.btn-refresh').click()
+                });
+            }else{
+		        layer.msg(request.message,{icon:2,time:1000});
+            }
+        })
+	});
+}
+/*批量删除*/
+function datadel() {
+        var del_ids = [];
+        $('input:checkbox:checked').each(function () {
+            var id = this.value;
+            if (id != '') {
+                del_ids.push(id);
+            }
+        });
+        if (del_ids.length == 0) {
+            layer.msg('您还未选中要删除的账户',{icon:1,time:1000});
+            return
+        }
+
+    layer.confirm('确认要删除吗？',function(index) {
+        $.getJSON('/script/js/change',{'id':JSON.stringify(del_ids)},function (request) {
+            if (request.code == 0) {
+                    layer.msg(request.message, {icon: 1, time: 1000}, function () {
+                        $('.btn-refresh').click();
+                    });
+                }
+        });
+    });
+}
+</script>
+</body>
+</html>

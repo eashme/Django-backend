@@ -1,0 +1,183 @@
+ERROR 2018-09-04 14:57:10,273 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 484, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 541, in _connect
+    raise err
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 529, in _connect
+    sock.connect(socket_address)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/client.py", line 667, in execute_command
+    connection.send_command(*args)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 113 connecting to 192.168.28.133:6379. No route to host.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 484, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 541, in _connect
+    raise err
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 529, in _connect
+    sock.connect(socket_address)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1482, in post
+    fornum_code = redis_conn.get(secret_key).decode()
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/client.py", line 976, in get
+    return self.execute_command('GET', name)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 113 connecting to 192.168.28.133:6379. No route to host.
+ERROR 2018-09-04 14:58:36,717 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 484, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 541, in _connect
+    raise err
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 529, in _connect
+    sock.connect(socket_address)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/client.py", line 667, in execute_command
+    connection.send_command(*args)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 113 connecting to 192.168.28.133:6379. No route to host.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 484, in connect
+    sock = self._connect()
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 541, in _connect
+    raise err
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 529, in _connect
+    sock.connect(socket_address)
+OSError: [Errno 113] No route to host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1482, in post
+    fornum_code = redis_conn.get(secret_key).decode()
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/client.py", line 976, in get
+    return self.execute_command('GET', name)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 113 connecting to 192.168.28.133:6379. No route to host.
+ERROR 2018-09-04 14:59:04,932 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1482, in post
+    fornum_code = redis_conn.get(secret_key).decode()
+AttributeError: 'NoneType' object has no attribute 'decode'
+WARNING 2018-09-04 15:00:42,496 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录
+WARNING 2018-09-04 15:29:37,220 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录
+ERROR 2018-09-04 15:29:53,113 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1491, in post
+    gen_task = GenTask(fornum_code, task)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 21, in __init__
+    self.get_classes()
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 43, in get_classes
+    module = importlib.import_module(module_path)
+  File "/home/python/.virtualenvs/dailyfresh/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+ImportError: No module named 'tel_apps.jrtt.__pycache_'
+WARNING 2018-09-04 15:31:55,877 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录
+ERROR 2018-09-04 15:35:27,578 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1493, in post
+    if not gen_task.start():
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 100, in start
+    instances_objs = self.get_current_task_obj()
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 69, in get_current_task_obj
+    instance_obj = cls()
+TypeError: 'module' object is not callable
+ERROR 2018-09-04 15:36:46,496 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1493, in post
+    if not gen_task.start():
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 101, in start
+    instances_objs = self.get_current_task_obj()
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 69, in get_current_task_obj
+    if issubclass(cls,BaseActivity):
+TypeError: issubclass() arg 1 must be a class
+WARNING 2018-09-04 15:54:19,278 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录
+WARNING 2018-09-04 16:13:36,845 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录
+WARNING 2018-09-04 16:18:56,185 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录
+WARNING 2018-09-04 16:33:46,026 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录
+WARNING 2018-09-04 16:36:35,878 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录
+WARNING 2018-09-04 16:44:32,251 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录
+WARNING 2018-09-04 16:57:04,221 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录

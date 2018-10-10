@@ -1,0 +1,130 @@
+ERROR 2018-09-05 10:40:46,259 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1482, in post
+    fornum_code = redis_conn.get(secret_key).decode()
+AttributeError: 'NoneType' object has no attribute 'decode'
+WARNING 2018-09-05 10:40:54,105 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录
+ERROR 2018-09-05 10:46:21,071 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/dailyfresh/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/Hellocial_0_1/urls.py", line 19, in <module>
+    from apps.users.views import SearchResultView
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 21, in <module>
+    from tel_apps.gen_script import GenTask
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 9, in <module>
+    from tel_apps.jrtt.main_activity import MainActivity
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/jrtt/main_activity.py", line 5, in <module>
+    from base.base_activity import BaseActivity
+ImportError: No module named 'base'
+ERROR 2018-09-05 11:20:58,364 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/dailyfresh/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/Hellocial_0_1/urls.py", line 19, in <module>
+    from apps.users.views import SearchResultView
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 21, in <module>
+    from tel_apps.gen_script import GenTask
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 9, in <module>
+    from tel_apps.jrtt.article_activity import ArticleActivity
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/jrtt/article_activity.py", line 1, in <module>
+    from base.base_activity import BaseActivity
+ImportError: No module named 'base'
+ERROR 2018-09-05 11:21:58,223 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/dailyfresh/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/Hellocial_0_1/urls.py", line 19, in <module>
+    from apps.users.views import SearchResultView
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 21, in <module>
+    from tel_apps.gen_script import GenTask
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 2, in <module>
+    sys.path.append(os.path.join(settings.BASE_DIR, 'tel_apps'))
+NameError: name 'sys' is not defined

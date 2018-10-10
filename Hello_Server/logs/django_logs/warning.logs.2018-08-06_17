@@ -1,0 +1,10 @@
+WARNING 2018-08-06 17:28:04,867 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /
+WARNING 2018-08-06 17:28:05,341 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico
+ERROR 2018-08-06 17:28:10,742 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1244: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2018-08-06 17:28:16,877 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1244: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2018-08-06 17:28:27,556 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1244: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2018-08-06 17:29:01,124 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1244: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2018-08-06 17:29:11,874 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1244: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+WARNING 2018-08-06 17:30:04,036 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1036: 用户缺乏隶属信息
+WARNING 2018-08-06 17:30:04,041 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1050: (1146, "Table 'hellocial.user_logs' doesn't exist")
+WARNING 2018-08-06 17:31:06,347 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 677: 代理商企图修改截止时间,修改人id为:1

@@ -1,0 +1,6 @@
+WARNING 2018-08-27 09:32:49,016 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /
+WARNING 2018-08-27 09:32:49,596 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico
+ERROR 2018-08-27 09:32:59,573 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1244: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+WARNING 2018-08-27 09:33:57,084 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1036: 用户缺乏隶属信息
+WARNING 2018-08-27 09:37:10,305 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico
+WARNING 2018-08-27 09:39:53,171 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1036: 用户缺乏隶属信息

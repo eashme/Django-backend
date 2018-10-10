@@ -1,0 +1,49 @@
+DEBUG 2018-09-04 12:10:25,294 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 12:10:25,528 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 12:10:25,697 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.169) SHOW FULL TABLES; args=None
+DEBUG 2018-09-04 12:10:25,814 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.089) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+WARNING 2018-09-04 12:10:51,607 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /
+WARNING 2018-09-04 12:10:52,145 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico
+ERROR 2018-09-04 12:10:57,855 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /pdf
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+DEBUG 2018-09-04 12:11:54,575 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 12:11:54,635 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 12:11:54,638 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-04 12:11:54,647 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-04 12:11:57,771 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 12:11:57,815 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 12:11:57,820 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.004) SHOW FULL TABLES; args=None
+DEBUG 2018-09-04 12:11:57,830 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-04 12:12:00,866 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /pdf
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/pub_metarial/views.py", line 15, in get
+    with open(settings.PDF_ROOT + file,'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/python/Desktop/Hellocial/Hellocial_0_1/pdf_filesWHALE.pdf'
+DEBUG 2018-09-04 12:12:23,934 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 12:12:23,995 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-04 12:12:23,998 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-04 12:12:24,007 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-04 12:12:25,681 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /pdf
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/pub_metarial/views.py", line 20, in get
+    f_byte += con
+TypeError: Can't convert 'bytes' object to str implicitly

@@ -1,0 +1,243 @@
+DEBUG 2018-09-05 09:45:41,645 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 09:45:41,680 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 09:45:41,682 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 09:45:41,692 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.006) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 10:00:18,895 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:00:18,994 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:00:19,010 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.015) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 10:00:19,022 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.005) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 10:02:22,560 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.011) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:02:22,634 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:02:22,636 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 10:02:22,653 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.011) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 10:04:31,473 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:04:31,546 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:04:31,550 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 10:04:31,562 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 10:07:28,086 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.010) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:07:28,161 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.007) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:07:28,163 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 10:07:28,171 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 10:07:33,918 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:07:33,988 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:07:33,992 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.004) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 10:07:34,023 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.023) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 10:08:16,800 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.015) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:08:16,930 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:08:16,933 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 10:08:16,945 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 10:21:35,424 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:21:35,491 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:21:35,493 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 10:21:35,500 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 10:23:36,171 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:23:36,222 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:23:36,224 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 10:23:36,230 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-05 10:40:46,259 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 1482, in post
+    fornum_code = redis_conn.get(secret_key).decode()
+AttributeError: 'NoneType' object has no attribute 'decode'
+DEBUG 2018-09-05 10:40:53,604 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:40:53,617 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:40:53,760 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.142) SELECT `user`.`id`, `user`.`password`, `user`.`last_login`, `user`.`is_superuser`, `user`.`username`, `user`.`first_name`, `user`.`last_name`, `user`.`email`, `user`.`is_staff`, `user`.`is_active`, `user`.`date_joined`, `user`.`create_time`, `user`.`founder`, `user`.`update_time`, `user`.`update_person`, `user`.`is_delete`, `user`.`role`, `user`.`name` FROM `user` WHERE `user`.`username` = 'JAKE'; args=('JAKE',)
+DEBUG 2018-09-05 10:40:53,912 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.047) SELECT `forum_info`.`id`, `forum_info`.`create_time`, `forum_info`.`founder`, `forum_info`.`update_time`, `forum_info`.`update_person`, `forum_info`.`is_delete`, `forum_info`.`title`, `forum_info`.`fornum_name`, `forum_info`.`description` FROM `forum_info` WHERE `forum_info`.`title` = 'jrtt'; args=('jrtt',)
+DEBUG 2018-09-05 10:40:54,018 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.101) SELECT `user_fornum_rel`.`id`, `user_fornum_rel`.`create_time`, `user_fornum_rel`.`founder`, `user_fornum_rel`.`update_time`, `user_fornum_rel`.`update_person`, `user_fornum_rel`.`is_delete`, `user_fornum_rel`.`user_id`, `user_fornum_rel`.`fornum_id` FROM `user_fornum_rel` WHERE (`user_fornum_rel`.`user_id` = 1 AND `user_fornum_rel`.`is_delete` = 0); args=(1, False)
+DEBUG 2018-09-05 10:40:54,029 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.006) SELECT `forum_info`.`id`, `forum_info`.`create_time`, `forum_info`.`founder`, `forum_info`.`update_time`, `forum_info`.`update_person`, `forum_info`.`is_delete`, `forum_info`.`title`, `forum_info`.`fornum_name`, `forum_info`.`description` FROM `forum_info` WHERE `forum_info`.`id` = 2; args=(2,)
+DEBUG 2018-09-05 10:40:54,044 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.012) SELECT `forum_info`.`id`, `forum_info`.`create_time`, `forum_info`.`founder`, `forum_info`.`update_time`, `forum_info`.`update_person`, `forum_info`.`is_delete`, `forum_info`.`title`, `forum_info`.`fornum_name`, `forum_info`.`description` FROM `forum_info` WHERE `forum_info`.`id` = 3; args=(3,)
+DEBUG 2018-09-05 10:40:54,048 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `forum_info`.`id`, `forum_info`.`create_time`, `forum_info`.`founder`, `forum_info`.`update_time`, `forum_info`.`update_person`, `forum_info`.`is_delete`, `forum_info`.`title`, `forum_info`.`fornum_name`, `forum_info`.`description` FROM `forum_info` WHERE `forum_info`.`id` = 6; args=(6,)
+DEBUG 2018-09-05 10:40:54,060 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.010) SELECT `forum_info`.`id`, `forum_info`.`create_time`, `forum_info`.`founder`, `forum_info`.`update_time`, `forum_info`.`update_person`, `forum_info`.`is_delete`, `forum_info`.`title`, `forum_info`.`fornum_name`, `forum_info`.`description` FROM `forum_info` WHERE `forum_info`.`id` = 5; args=(5,)
+DEBUG 2018-09-05 10:40:54,066 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SELECT `forum_info`.`id`, `forum_info`.`create_time`, `forum_info`.`founder`, `forum_info`.`update_time`, `forum_info`.`update_person`, `forum_info`.`is_delete`, `forum_info`.`title`, `forum_info`.`fornum_name`, `forum_info`.`description` FROM `forum_info` WHERE `forum_info`.`id` = 4; args=(4,)
+DEBUG 2018-09-05 10:40:54,074 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.005) SELECT `forum_info`.`id`, `forum_info`.`create_time`, `forum_info`.`founder`, `forum_info`.`update_time`, `forum_info`.`update_person`, `forum_info`.`is_delete`, `forum_info`.`title`, `forum_info`.`fornum_name`, `forum_info`.`description` FROM `forum_info` WHERE `forum_info`.`id` = 1; args=(1,)
+DEBUG 2018-09-05 10:40:54,084 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.006) SELECT `forum_info`.`id`, `forum_info`.`create_time`, `forum_info`.`founder`, `forum_info`.`update_time`, `forum_info`.`update_person`, `forum_info`.`is_delete`, `forum_info`.`title`, `forum_info`.`fornum_name`, `forum_info`.`description` FROM `forum_info` WHERE `forum_info`.`id` = 7; args=(7,)
+DEBUG 2018-09-05 10:40:54,104 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.017) SELECT `user_relationship`.`id`, `user_relationship`.`create_time`, `user_relationship`.`founder`, `user_relationship`.`update_time`, `user_relationship`.`update_person`, `user_relationship`.`is_delete`, `user_relationship`.`master_id`, `user_relationship`.`slave_id`, `user_relationship`.`end_time` FROM `user_relationship` WHERE `user_relationship`.`slave_id` = 1; args=(1,)
+WARNING 2018-09-05 10:40:54,105 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1447: JAKE没有隶属关系记录
+DEBUG 2018-09-05 10:44:03,529 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.016) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:44:03,635 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:44:03,647 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.012) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 10:44:03,684 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.028) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 10:46:17,397 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:46:17,492 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:46:17,496 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.004) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 10:46:17,515 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.005) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-05 10:46:21,071 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/dailyfresh/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/Hellocial_0_1/urls.py", line 19, in <module>
+    from apps.users.views import SearchResultView
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 21, in <module>
+    from tel_apps.gen_script import GenTask
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 9, in <module>
+    from tel_apps.jrtt.main_activity import MainActivity
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/jrtt/main_activity.py", line 5, in <module>
+    from base.base_activity import BaseActivity
+ImportError: No module named 'base'
+DEBUG 2018-09-05 10:47:16,863 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:47:16,930 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:47:16,934 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 10:47:16,944 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 10:49:35,059 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:49:35,119 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 10:49:35,121 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 10:49:35,129 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 11:00:27,212 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:00:27,265 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:00:27,268 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 11:00:27,277 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 11:19:19,818 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.006) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:19:19,989 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:19:19,996 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.006) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 11:19:20,041 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.030) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-05 11:20:58,364 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/dailyfresh/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/Hellocial_0_1/urls.py", line 19, in <module>
+    from apps.users.views import SearchResultView
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 21, in <module>
+    from tel_apps.gen_script import GenTask
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 9, in <module>
+    from tel_apps.jrtt.article_activity import ArticleActivity
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/jrtt/article_activity.py", line 1, in <module>
+    from base.base_activity import BaseActivity
+ImportError: No module named 'base'
+DEBUG 2018-09-05 11:21:56,481 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:21:56,550 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:21:56,577 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.027) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 11:21:56,596 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.012) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-05 11:21:58,223 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 256: Internal Server Error: /users/app/phone/gen_task
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 394, in urlconf_module
+    return self._urlconf_module
+AttributeError: 'RegexURLResolver' object has no attribute '_urlconf_module'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/dailyfresh/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/Hellocial_0_1/urls.py", line 19, in <module>
+    from apps.users.views import SearchResultView
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py", line 21, in <module>
+    from tel_apps.gen_script import GenTask
+  File "/home/python/Desktop/Hellocial/Hellocial_0_1/tel_apps/gen_script.py", line 2, in <module>
+    sys.path.append(os.path.join(settings.BASE_DIR, 'tel_apps'))
+NameError: name 'sys' is not defined
+DEBUG 2018-09-05 11:22:43,314 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:22:43,363 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:22:43,382 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.019) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 11:22:43,396 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.008) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 11:36:02,485 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:36:02,859 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:36:02,897 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.037) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 11:36:02,913 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.007) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 11:36:29,900 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:36:30,253 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.018) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:36:30,264 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.010) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 11:36:30,297 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.011) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 11:36:34,937 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:36:35,041 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:36:35,044 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 11:36:35,062 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.010) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 11:41:16,313 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:41:16,395 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.007) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 11:41:16,398 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 11:41:16,434 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.024) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 12:03:35,371 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 12:03:35,468 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 12:03:35,502 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.033) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 12:03:35,549 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.031) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 12:04:48,308 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 12:04:48,463 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 12:04:48,467 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 12:04:48,483 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.007) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 12:05:54,442 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 12:05:54,500 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 12:05:54,504 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.003) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 12:05:54,528 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.017) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2018-09-05 12:06:04,656 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 12:06:04,705 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+DEBUG 2018-09-05 12:06:04,708 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.002) SHOW FULL TABLES; args=None
+DEBUG 2018-09-05 12:06:04,729 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/db/backends/utils.py 89: (0.014) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()

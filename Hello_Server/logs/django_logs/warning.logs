@@ -1,0 +1,6 @@
+WARNING 2018-09-21 16:00:35,740 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /
+WARNING 2018-09-21 16:00:36,175 /home/python/.virtualenvs/dailyfresh/local/lib/python3.5/site-packages/django/core/handlers/base.py 170: Not Found: /favicon.ico
+ERROR 2018-09-21 16:01:44,105 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1252: Error 111 connecting to 192.168.1.183:6379. Connection refused.
+ERROR 2018-09-21 16:05:01,887 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1252: Error 111 connecting to 192.168.1.183:6379. Connection refused.
+WARNING 2018-09-21 16:09:34,504 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 563: 修改的日期时间不合法
+WARNING 2018-09-21 16:16:47,492 /home/python/Desktop/Hellocial/Hellocial_0_1/apps/users/views.py 1047: 用户缺乏隶属信息
